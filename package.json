@@ -1,0 +1,17 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "icon": "./public/electron.ico",
+  "scripts": {
+    "win-build": "rm -rf ./dist && electron-builder --win",
+    "electron": "electron ."
+  },
+  "dependencies": {
+    "electron-serve": "^1.1.0"
+  },
+  "devDependencies": {
+    "electron": "^14.0.0",
+    "electron-builder": "^22.11.7"
+  }
+}

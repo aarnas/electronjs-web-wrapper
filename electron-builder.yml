@@ -1,0 +1,14 @@
+---
+appId: com.any
+compression: maximum
+win:
+  target:
+  - target: nsis
+    arch:
+    - x64
+  icon: "./public/electron.ico"
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  artifactName: "${productName}-${version}-Setup-Test.${ext}"
